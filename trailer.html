@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="icon" class="icons" href="image/icong.jpg" sizes="16x16">
+    <style>
+      body{
+      background-color: #0f2840;
+      }
+
+      
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+ 
+    
+    
+
+    <title>Game</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light primary-nav">
+  <a class="navbar-brand" href="#"><img src="image/joy.jpg" width="20%"></a>
+    <div class="toggler-icons">
+    <span class="navbar-toggler-icon toggler"></span>
+    <span class="cross-icon " style="display: none;">&#10060;</span>
+  </div>
+  
+    
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto justify-content-between w-100">
+      <li class="nav-item">
+        <a class="nav-link "  href="newslider.html"> <i class="fa fa-home" style="font-size: 20px;"> Home</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active " href="#" > <i class="fa fa-play-circle" style="font-size: 20px;"> Trailer</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link  " href="#" > <i class="fa fa-gamepad" style="font-size: 20px;"> Games</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link " href="#" ><i class="fa fa-calendar-alt" style="font-size: 20px;"> Calendar</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link " href="contact.html" ><i class="fa fa-envelope" style="font-size: 20px;"> Contact</i></a>
+      </li>
+
+       <li class= "nav-item" id="login">
+        <a class="nav-link " href="#"> <i class="fa fa-user-circle" style="font-size: 20px;"> Login</i></a>
+      </li>
+    
+    </ul>
+  </div> 
+</nav>
+
+
+<div class="VIDEO-SECTION">
+<div class="secondaryNav">
+<div class=" container my-4"><h1 class="text-white" style="font-size: 50px;">VIDEO</h1></div>
+
+<nav class=" secondary-nav navbar-expand-lg">
+    <div class="container">
+    <ul class="sec-nav mr-auto d-flex m-auto w-100">
+        <li class="sec-nav-item">
+            <a href="#" id="secondary-nav-link" class="sec-nav-link secondaryactive"> <i class="fa fa-play-circle second1nav"> All Videos</i> </a>
+        </li>
+
+        <li class="sec-nav-item ">
+          <a href="trend.html" id="secondary-nav-link"   class="sec-nav-link "> <i class="fa fa-fire-alt second1nav "> Trending Videos</i> </a>
+      </li>
+    </ul>
+    </div>
+    <hr class="sec-nav-hr">
+
+</nav>
+</div>
+
+
+  
+
+
+<div class="mainWrapper  all-game-videos ">
+  <div class="video-title text-white container">
+    <h2> All Videos</h2>
+  </div>
+  <div class="game-videos container py-2">
+    <div class="row">
+      
+        <div class="card game-card " id="games-card"   onclick="videoCollection('video2','media/cod.mp4')"  >
+          <img src="image/cod.jpg" class="card-img-top" alt="all of duty image"> 
+          <div class="timer ">1:30</div>
+          <i class="fa fa-play-circle game-video-icon"></i>
+          <div class="card-body" style="background-color: #000;">
+            <h5 class="card-title game-title text-white text-center">Call of Duty </h5>
+          </div>
+          </div>
+     
+     
+
+     
+        <div class="card game-card"  onclick="videoCollection('video2','media/pesTrailer.mp4')">
+          <img src="image/pes.jpg" class="card-img-top" alt="PES">
+          <div class="timer ">1:37</div>
+          <i class="fa fa-play-circle game-video-icon"></i>
+          <div class="card-body" style="background-color: #000;">
+            <h5 class="card-title game-title text-white text-center">PES</h5>
+          </div>
+          </div>
+      
+
+      
+        <div class="card game-card"  onclick="videoCollection('video2','media/Fifa21.mp4')">
+          <img src="image/fifa1.jpg" class="card-img-top" alt="Fifa">
+          <div class="timer ">2:03</div>
+          <i class="fa fa-play-circle game-video-icon"></i>
+          <div class="card-body" style="background-color: #000;">
+            <h5 class="card-title game-title text-white text-center ">FIFA </h5>
+          </div>
+          </div>
+      
+
+      
+        <div class="card game-card"  onclick="videoCollection('video2','media/pubg.mp4')">
+          <img src="image/pubg1.jpg" class="card-img-top" alt="all of duty image">
+          <div class="timer ">2:06</div>
+          <i class="fa fa-play-circle game-video-icon"></i>
+          <div class="card-body" style="background-color: #000;">
+            <h5 class="card-title game-title text-white text-center">PUBG</h5>
+          </div>
+          </div>
+
+          
+        <div class="card game-card"  onclick="videoCollection('video2','media/ACV.mp4')">
+          <img src="image/ac.jpg" class="card-img-top" alt="all of duty image">
+          <div class="timer ">2:19</div>
+          <i class="fa fa-play-circle game-video-icon"></i>
+          <div class="card-body" style="background-color: #000;">
+            <h5 class="card-title game-title text-white text-center">Assassin Creed</h5>
+          </div>
+          </div>
+
+              
+        <div class="card game-card"  onclick="videoCollection('video2','media/POP.mp4')">
+          <img src="image/pop.jpg" class="card-img-top" alt="all of duty image">
+          <div class="timer ">1:50</div>
+          <i class="fa fa-play-circle game-video-icon"></i>
+          <div class="card-body" style="background-color:#000;">
+            <h5 class="card-title game-title text-white text-center">Prince of Persia </h5>
+          </div>
+          </div>
+
+                  
+        <div class="card game-card"  onclick="videoCollection('video2','media/tombr.mp4')">
+          <img src="image/tr.jpg" class="card-img-top" alt="all of duty image">
+          <div class="timer ">2:48</div>
+          <i class="fa fa-play-circle game-video-icon"></i>
+          <div class="card-body" style="background-color: #000;">
+            <h5 class="card-title game-title text-white text-center">Tomb Raider</h5>
+          </div>
+          </div>
+
+          <div class="card game-card"  onclick="videoCollection('video2','media/cod.mp4')">
+            <img src="image/nite1.jpg" class="card-img-top" alt="all of duty image">
+            <div class="timer ">0:38</div>
+            <i class="fa fa-play-circle game-video-icon"></i>
+            <div class="card-body" style="background-color: #000;">
+              <h5 class="card-title game-title text-white text-center">Fortnite</h5>
+            </div>
+            </div>
+
+            <div class="card game-card"  onclick="videoCollection('video2','media/cod.mp4')">
+              <img src="image/gtav.jpg" class="card-img-top" alt="all of duty image">
+              <div class="timer ">1:25</div>
+              <i class="fa fa-play-circle game-video-icon"></i>
+              <div class="card-body" style="background-color: #000;">
+                <h5 class="card-title game-title text-white text-center">GTA V</h5>
+              </div>
+              </div>
+
+              <div class="card game-card"  onclick="videoCollection('video2','media/cod.mp4')">
+                <img src="image/us.jpg" class="card-img-top" alt="all of duty image">
+                <div class="timer ">0:38</div>
+                <i class="fa fa-play-circle game-video-icon"></i>
+                <div class="card-body" style="background-color: #000;">
+                  <h5 class="card-title game-title text-white text-center">Among Us</h5>
+                </div>
+                </div>
+
+                <div class="card game-card"  onclick="videoCollection('video2','media/cod.mp4')">
+                  <img src="image/counter.jpg" class="card-img-top" alt="all of duty image">
+                  <div class="timer ">0:38</div>
+                  <i class="fa fa-play-circle game-video-icon"></i>
+                  <div class="card-body" style="background-color: #000;">
+                    <h5 class="card-title game-title text-white text-center">Counter Strike</h5>
+                  </div>
+                  </div>
+
+                  <div class="card game-card"  onclick="videoCollection('video2','media/cod.mp4')">
+                    <img src="image/som.jpg" class="card-img-top" alt="all of duty image">
+                    <div class="timer ">0:38</div>
+                    <i class="fa fa-play-circle game-video-icon"></i>
+                    <div class="card-body" style="background-color: #000;">
+                      <h5 class="card-title game-title text-white text-center">Shadow of Mordor</h5>
+                    </div>
+                    </div>
+      
+         
+       
+      </div>
+
+      <div class=" container d-flex align-items-center justify-content-center" id="videoContent">
+        <video id="video2" width="600" >
+          <source type="vide0/mp4" id="sources" src="">
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="close"> <i id="fa-times" class="times" onclick="closeVideoColl()">&#10060;</i> </div>
+      </div>
+    </div>
+  </div>
+ 
+
+
+
+
+
+
+
+ 
+</div>
+
+      <!--Back to top-->
+    <a href="#" class="to-top"><i class="fas fa-chevron-up"></i></a>
+
+
+
+    <!--Footer part-->
+    <footer>
+      <div class="container ">
+        <h2 class="text-white ml-2 d-flex align-items-center justify-content-center">Connect with us</h2>
+        <ul class="nav-list d-flex align-items-center justify-content-center">
+          <li class="list-items"><i class="fab fa-facebook"></i></li>
+          <li class="list-items"><i class="fab fa-twitter"></i></li>
+          <li class="list-items"><i class="fab fa-instagram"></i></li>
+        </ul>
+      </div>s
+      <div class="container text-white d-flex justify-content-center align-items-center footerContent1">
+        <p class="ml-4">Info</p><span><p class="ml-2">Support</p></span><span><p class="ml-2">Marketing</p></span>
+      </div>
+        <div class="text-white  d-flex justify-content-center align-items-center footerContent2">
+        <p class="ml-2"><a>Terms of use</a></p><span><p class="ml-2">Privacy Policy</p></span>
+      </div>
+      <p class="text-secondary text-center copyrightContent"> &copy; 2020 skGaming</h2>
+    </footer>
+
+
+
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jqGame.js"></script> 
+<script type="text/javascript" src="js/game1.js"></script>
+</body>
+</html>
